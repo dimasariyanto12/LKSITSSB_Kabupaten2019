@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dbkasirDataSet31" targetNamespace="http://tempuri.org/dbkasirDataSet31.xsd" xmlns:mstns="http://tempuri.org/dbkasirDataSet31.xsd" xmlns="http://tempuri.org/dbkasirDataSet31.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbkasirConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbkasirConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Kasir.Properties.Settings.GlobalReference.Default.dbkasirConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_BarangTableAdapter" GeneratorDataComponentClassName="vw_BarangTableAdapter" Name="vw_Barang" UserDataComponentName="vw_BarangTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbkasirConnectionString (Settings)" DbObjectName="dbkasir.dbo.vw_Barang" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, kode, nama, stock, deskripsi, harga_jual, harga_beli, nm_kategori, namaSuplier, kategoriId, suplierId FROM dbo.vw_Barang</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="kode" DataSetColumn="kode" />
+              <Mapping SourceColumn="nama" DataSetColumn="nama" />
+              <Mapping SourceColumn="stock" DataSetColumn="stock" />
+              <Mapping SourceColumn="deskripsi" DataSetColumn="deskripsi" />
+              <Mapping SourceColumn="harga_jual" DataSetColumn="harga_jual" />
+              <Mapping SourceColumn="harga_beli" DataSetColumn="harga_beli" />
+              <Mapping SourceColumn="nm_kategori" DataSetColumn="nm_kategori" />
+              <Mapping SourceColumn="namaSuplier" DataSetColumn="namaSuplier" />
+              <Mapping SourceColumn="kategoriId" DataSetColumn="kategoriId" />
+              <Mapping SourceColumn="suplierId" DataSetColumn="suplierId" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dbkasirDataSet31" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dbkasirDataSet31" msprop:Generator_UserDSName="dbkasirDataSet31">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_Barang" msprop:Generator_TableClassName="vw_BarangDataTable" msprop:Generator_TableVarName="tablevw_Barang" msprop:Generator_TablePropName="vw_Barang" msprop:Generator_RowDeletingName="vw_BarangRowDeleting" msprop:Generator_RowChangingName="vw_BarangRowChanging" msprop:Generator_RowEvHandlerName="vw_BarangRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_BarangRowDeleted" msprop:Generator_UserTableName="vw_Barang" msprop:Generator_RowChangedName="vw_BarangRowChanged" msprop:Generator_RowEvArgName="vw_BarangRowChangeEvent" msprop:Generator_RowClassName="vw_BarangRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="kode" msprop:Generator_ColumnVarNameInTable="columnkode" msprop:Generator_ColumnPropNameInRow="kode" msprop:Generator_ColumnPropNameInTable="kodeColumn" msprop:Generator_UserColumnName="kode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nama" msprop:Generator_ColumnVarNameInTable="columnnama" msprop:Generator_ColumnPropNameInRow="nama" msprop:Generator_ColumnPropNameInTable="namaColumn" msprop:Generator_UserColumnName="nama" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="stock" msprop:Generator_ColumnVarNameInTable="columnstock" msprop:Generator_ColumnPropNameInRow="stock" msprop:Generator_ColumnPropNameInTable="stockColumn" msprop:Generator_UserColumnName="stock" type="xs:int" minOccurs="0" />
+              <xs:element name="deskripsi" msprop:Generator_ColumnVarNameInTable="columndeskripsi" msprop:Generator_ColumnPropNameInRow="deskripsi" msprop:Generator_ColumnPropNameInTable="deskripsiColumn" msprop:Generator_UserColumnName="deskripsi" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="harga_jual" msprop:Generator_ColumnVarNameInTable="columnharga_jual" msprop:Generator_ColumnPropNameInRow="harga_jual" msprop:Generator_ColumnPropNameInTable="harga_jualColumn" msprop:Generator_UserColumnName="harga_jual" type="xs:double" minOccurs="0" />
+              <xs:element name="harga_beli" msprop:Generator_ColumnVarNameInTable="columnharga_beli" msprop:Generator_ColumnPropNameInRow="harga_beli" msprop:Generator_ColumnPropNameInTable="harga_beliColumn" msprop:Generator_UserColumnName="harga_beli" type="xs:double" minOccurs="0" />
+              <xs:element name="nm_kategori" msprop:Generator_ColumnVarNameInTable="columnnm_kategori" msprop:Generator_ColumnPropNameInRow="nm_kategori" msprop:Generator_ColumnPropNameInTable="nm_kategoriColumn" msprop:Generator_UserColumnName="nm_kategori" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="namaSuplier" msprop:Generator_ColumnVarNameInTable="columnnamaSuplier" msprop:Generator_ColumnPropNameInRow="namaSuplier" msprop:Generator_ColumnPropNameInTable="namaSuplierColumn" msprop:Generator_UserColumnName="namaSuplier" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="kategoriId" msprop:Generator_ColumnVarNameInTable="columnkategoriId" msprop:Generator_ColumnPropNameInRow="kategoriId" msprop:Generator_ColumnPropNameInTable="kategoriIdColumn" msprop:Generator_UserColumnName="kategoriId" type="xs:int" />
+              <xs:element name="suplierId" msprop:Generator_ColumnVarNameInTable="columnsuplierId" msprop:Generator_ColumnPropNameInRow="suplierId" msprop:Generator_ColumnPropNameInTable="suplierIdColumn" msprop:Generator_UserColumnName="suplierId" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vw_Barang" />
+      <xs:field xpath="mstns:id" />
+      <xs:field xpath="mstns:kategoriId" />
+      <xs:field xpath="mstns:suplierId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

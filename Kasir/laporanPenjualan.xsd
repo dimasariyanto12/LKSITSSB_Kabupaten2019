@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="laporanPenjualan" targetNamespace="http://tempuri.org/laporanPenjualan.xsd" xmlns:mstns="http://tempuri.org/laporanPenjualan.xsd" xmlns="http://tempuri.org/laporanPenjualan.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbkasirConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbkasirConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Kasir.Properties.Settings.GlobalReference.Default.dbkasirConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vw_laporanTableAdapter" GeneratorDataComponentClassName="vw_laporanTableAdapter" Name="vw_laporan" UserDataComponentName="vw_laporanTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbkasirConnectionString (Settings)" DbObjectName="dbkasir.dbo.vw_laporan" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT kode_brg, nama, harga_beli, harga_jual, qty, untung FROM dbo.vw_laporan</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="kode_brg" DataSetColumn="kode_brg" />
+              <Mapping SourceColumn="nama" DataSetColumn="nama" />
+              <Mapping SourceColumn="harga_beli" DataSetColumn="harga_beli" />
+              <Mapping SourceColumn="harga_jual" DataSetColumn="harga_jual" />
+              <Mapping SourceColumn="qty" DataSetColumn="qty" />
+              <Mapping SourceColumn="untung" DataSetColumn="untung" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="laporanPenjualan" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="laporanPenjualan" msprop:Generator_UserDSName="laporanPenjualan">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vw_laporan" msprop:Generator_TableClassName="vw_laporanDataTable" msprop:Generator_TableVarName="tablevw_laporan" msprop:Generator_TablePropName="vw_laporan" msprop:Generator_RowDeletingName="vw_laporanRowDeleting" msprop:Generator_RowChangingName="vw_laporanRowChanging" msprop:Generator_RowEvHandlerName="vw_laporanRowChangeEventHandler" msprop:Generator_RowDeletedName="vw_laporanRowDeleted" msprop:Generator_UserTableName="vw_laporan" msprop:Generator_RowChangedName="vw_laporanRowChanged" msprop:Generator_RowEvArgName="vw_laporanRowChangeEvent" msprop:Generator_RowClassName="vw_laporanRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="kode_brg" msprop:Generator_ColumnVarNameInTable="columnkode_brg" msprop:Generator_ColumnPropNameInRow="kode_brg" msprop:Generator_ColumnPropNameInTable="kode_brgColumn" msprop:Generator_UserColumnName="kode_brg">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nama" msprop:Generator_ColumnVarNameInTable="columnnama" msprop:Generator_ColumnPropNameInRow="nama" msprop:Generator_ColumnPropNameInTable="namaColumn" msprop:Generator_UserColumnName="nama" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="harga_beli" msprop:Generator_ColumnVarNameInTable="columnharga_beli" msprop:Generator_ColumnPropNameInRow="harga_beli" msprop:Generator_ColumnPropNameInTable="harga_beliColumn" msprop:Generator_UserColumnName="harga_beli" type="xs:decimal" minOccurs="0" />
+              <xs:element name="harga_jual" msprop:Generator_ColumnVarNameInTable="columnharga_jual" msprop:Generator_ColumnPropNameInRow="harga_jual" msprop:Generator_ColumnPropNameInTable="harga_jualColumn" msprop:Generator_UserColumnName="harga_jual" type="xs:decimal" minOccurs="0" />
+              <xs:element name="qty" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_UserColumnName="qty" type="xs:int" />
+              <xs:element name="untung" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnuntung" msprop:Generator_ColumnPropNameInRow="untung" msprop:Generator_ColumnPropNameInTable="untungColumn" msprop:Generator_UserColumnName="untung" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

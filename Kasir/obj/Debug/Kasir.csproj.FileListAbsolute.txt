@@ -1,0 +1,166 @@
+C:\Users\dimas\source\repos\Kasir\Kasir\bin\Debug\Kasir.exe.config
+C:\Users\dimas\source\repos\Kasir\Kasir\bin\Debug\Kasir.exe
+C:\Users\dimas\source\repos\Kasir\Kasir\bin\Debug\Kasir.pdb
+C:\Users\dimas\source\repos\Kasir\Kasir\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\dimas\source\repos\Kasir\Kasir\obj\Debug\Kasir.csprojAssemblyReference.cache
+C:\Users\dimas\source\repos\Kasir\Kasir\obj\Debug\Kasir.Properties.Resources.resources
+C:\Users\dimas\source\repos\Kasir\Kasir\obj\Debug\Kasir.csproj.GenerateResource.cache
+C:\Users\dimas\source\repos\Kasir\Kasir\obj\Debug\Kasir.csproj.CoreCompileInputs.cache
+C:\Users\dimas\source\repos\Kasir\Kasir\obj\Debug\Kasir.csproj.CopyComplete
+C:\Users\dimas\source\repos\Kasir\Kasir\obj\Debug\Kasir.exe
+C:\Users\dimas\source\repos\Kasir\Kasir\obj\Debug\Kasir.pdb
+C:\Users\dimas\source\repos\Kasir\Kasir\obj\Debug\Kasir.frmHome.resources
+C:\Users\dimas\source\repos\Kasir\Kasir\obj\Debug\Kasir.frmMain.resources
+C:\Users\dimas\source\repos\Kasir\Kasir\obj\Debug\Kasir.frmKategori.resources
+G:\Kasir\Kasir\bin\Debug\Kasir.exe.config
+G:\Kasir\Kasir\obj\Debug\Kasir.exe
+G:\Kasir\Kasir\obj\Debug\Kasir.pdb
+G:\Kasir\Kasir\bin\Debug\Kasir.exe
+G:\Kasir\Kasir\bin\Debug\Kasir.pdb
+G:\Kasir\Kasir\obj\Debug\Kasir.csprojResolveAssemblyReference.cache
+G:\Kasir\Kasir\obj\Debug\Kasir.frmHome.resources
+G:\Kasir\Kasir\obj\Debug\Kasir.frmKategori.resources
+G:\Kasir\Kasir\obj\Debug\Kasir.frmMain.resources
+G:\Kasir\Kasir\obj\Debug\Kasir.Properties.Resources.resources
+G:\Kasir\Kasir\obj\Debug\Kasir.csproj.GenerateResource.Cache
+G:\Kasir\Kasir\obj\Debug\Kasir.tambahKategori.resources
+G:\project lks\Kasir\Kasir\bin\Debug\Kasir.exe.config
+G:\project lks\Kasir\Kasir\obj\Debug\Kasir.exe
+G:\project lks\Kasir\Kasir\obj\Debug\Kasir.pdb
+G:\project lks\Kasir\Kasir\bin\Debug\Kasir.exe
+G:\project lks\Kasir\Kasir\bin\Debug\Kasir.pdb
+G:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.dll
+G:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.SqlServer.dll
+G:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.xml
+G:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.SqlServer.xml
+G:\project lks\Kasir\Kasir\obj\Debug\Kasir.csprojResolveAssemblyReference.cache
+G:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmHome.resources
+G:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmKategori.resources
+G:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmMain.resources
+G:\project lks\Kasir\Kasir\obj\Debug\Kasir.Properties.Resources.resources
+G:\project lks\Kasir\Kasir\obj\Debug\Kasir.tambahKategori.resources
+G:\project lks\Kasir\Kasir\obj\Debug\Kasir.csproj.GenerateResource.Cache
+G:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmPelanggan.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.csprojAssemblyReference.cache
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmHome.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmKategori.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmMain.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmPelanggan.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.Properties.Resources.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.tambahKategori.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.csproj.GenerateResource.cache
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.csproj.CoreCompileInputs.cache
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.exe
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.pdb
+F:\project lks\Kasir\Kasir\bin\Debug\Kasir.exe.config
+F:\project lks\Kasir\Kasir\bin\Debug\Kasir.exe
+F:\project lks\Kasir\Kasir\bin\Debug\Kasir.pdb
+F:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.dll
+F:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.SqlServer.dll
+F:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.xml
+F:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.SqlServer.xml
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.csproj.CopyComplete
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.tambahPelanggan.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmSupplier.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmUser.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.tambahSuplier.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.tambahUser.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmBarang.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.tambahBarang.resources
+F:\project lks\Kasir\Kasir\obj\Debug\Kasir.Transaksi.resources
+D:\project lks\Kasir\Kasir\bin\Debug\Kasir.exe.config
+D:\project lks\Kasir\Kasir\bin\Debug\Kasir.exe
+D:\project lks\Kasir\Kasir\bin\Debug\Kasir.pdb
+D:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.dll
+D:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.SqlServer.dll
+D:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.xml
+D:\project lks\Kasir\Kasir\bin\Debug\EntityFramework.SqlServer.xml
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmBarang.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmHome.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmKategori.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmMain.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmPelanggan.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmSupplier.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.frmUser.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.Properties.Resources.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.tambahKategori.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.tambahPelanggan.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.tambahSuplier.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.tambahUser.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.Transaksi.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.csproj.GenerateResource.cache
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.csproj.CoreCompileInputs.cache
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.csproj.CopyComplete
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.exe
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.pdb
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.Login.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.detailBarang.resources
+D:\project lks\Kasir\Kasir\obj\Debug\Kasir.csprojAssemblyReference.cache
+D:\My Portofolio\Kasir\Kasir\bin\Debug\Kasir.exe.config
+D:\My Portofolio\Kasir\Kasir\bin\Debug\Kasir.exe
+D:\My Portofolio\Kasir\Kasir\bin\Debug\Kasir.pdb
+D:\My Portofolio\Kasir\Kasir\bin\Debug\EntityFramework.dll
+D:\My Portofolio\Kasir\Kasir\bin\Debug\EntityFramework.SqlServer.dll
+D:\My Portofolio\Kasir\Kasir\bin\Debug\EntityFramework.xml
+D:\My Portofolio\Kasir\Kasir\bin\Debug\EntityFramework.SqlServer.xml
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.detailBarang.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmBarang.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmHome.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmKategori.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmMain.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmPelanggan.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmSupplier.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmUser.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.Login.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.Properties.Resources.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.tambahKategori.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.tambahPelanggan.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.tambahSuplier.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.tambahUser.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.Transaksi.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.csproj.GenerateResource.cache
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.csproj.CoreCompileInputs.cache
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.csproj.CopyComplete
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.exe
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.pdb
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmKasir.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmPengaturan.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.CariBarang.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.CariPelanggan.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmTransaksi.resources
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.frmQty.resources
+D:\My Portofolio\Kasir\Kasir\bin\Debug\MetroFramework.dll
+D:\My Portofolio\Kasir\Kasir\obj\Debug\Kasir.csprojAssemblyReference.cache
+C:\Users\dimas\Music\Kasir\Kasir\bin\Debug\Kasir.exe.config
+C:\Users\dimas\Music\Kasir\Kasir\bin\Debug\Kasir.exe
+C:\Users\dimas\Music\Kasir\Kasir\bin\Debug\Kasir.pdb
+C:\Users\dimas\Music\Kasir\Kasir\bin\Debug\EntityFramework.dll
+C:\Users\dimas\Music\Kasir\Kasir\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dimas\Music\Kasir\Kasir\bin\Debug\MetroFramework.dll
+C:\Users\dimas\Music\Kasir\Kasir\bin\Debug\EntityFramework.xml
+C:\Users\dimas\Music\Kasir\Kasir\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.CariBarang.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.CariPelanggan.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.detailBarang.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmBarang.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmHome.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmKasir.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmKategori.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmMain.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmPelanggan.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmPengaturan.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmQty.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmSupplier.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmTransaksi.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.frmUser.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.Login.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.Properties.Resources.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.tambahKategori.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.tambahPelanggan.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.tambahSuplier.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.tambahUser.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.Transaksi.resources
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.csproj.GenerateResource.cache
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.exe
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.pdb
+C:\Users\dimas\Music\Kasir\Kasir\obj\Debug\Kasir.csprojResolveAssemblyReference.cache

@@ -1,0 +1,1007 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{756E6C78-2786-4174-AF98-3A50EEC8AB7B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kasir</RootNamespace>
+    <AssemblyName>Kasir</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Desktop\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>C:\Users\dimas\source\repos\POS\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1358.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.3.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1358.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1358.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AmbilPengguna.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AmbilPengguna.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CariBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariBarang.Designer.cs">
+      <DependentUpon>CariBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CariPelanggan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CariPelanggan.Designer.cs">
+      <DependentUpon>CariPelanggan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\loginDAL.cs" />
+    <Compile Include="datasetPengguna.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>datasetPengguna.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection.cs" />
+    <Compile Include="dbkasirDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet30.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbkasirDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbkasirDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="detailBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detailBarang.Designer.cs">
+      <DependentUpon>detailBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBarang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBarang.Designer.cs">
+      <DependentUpon>frmBarang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHome.Designer.cs">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKasir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKasir.Designer.cs">
+      <DependentUpon>frmKasir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKategori.Designer.cs">
+      <DependentUpon>frmKategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPelanggan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPelanggan.Designer.cs">
+      <DependentUpon>frmPelanggan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPengaturan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPengaturan.Designer.cs">
+      <DependentUpon>frmPengaturan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQty.Designer.cs">
+      <DependentUpon>frmQty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSupplier.Designer.cs">
+      <DependentUpon>frmSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransaksi.Designer.cs">
+      <DependentUpon>frmTransaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser.Designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="getID.cs" />
+    <Compile Include="GetIDBLL.cs" />
+    <Compile Include="kasirDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>kasirDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="loginBLL.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="tambahKategori.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tambahKategori.Designer.cs">
+      <DependentUpon>tambahKategori.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tambahPelanggan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tambahPelanggan.Designer.cs">
+      <DependentUpon>tambahPelanggan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tambahSuplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tambahSuplier.Designer.cs">
+      <DependentUpon>tambahSuplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tambahUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tambahUser.Designer.cs">
+      <DependentUpon>tambahUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi.Designer.cs">
+      <DependentUpon>Transaksi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CariBarang.resx">
+      <DependentUpon>CariBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CariPelanggan.resx">
+      <DependentUpon>CariPelanggan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detailBarang.resx">
+      <DependentUpon>detailBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBarang.resx">
+      <DependentUpon>frmBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHome.resx">
+      <DependentUpon>frmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKasir.resx">
+      <DependentUpon>frmKasir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKategori.resx">
+      <DependentUpon>frmKategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPelanggan.resx">
+      <DependentUpon>frmPelanggan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPengaturan.resx">
+      <DependentUpon>frmPengaturan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQty.resx">
+      <DependentUpon>frmQty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSupplier.resx">
+      <DependentUpon>frmSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransaksi.resx">
+      <DependentUpon>frmTransaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="tambahKategori.resx">
+      <DependentUpon>tambahKategori.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tambahPelanggan.resx">
+      <DependentUpon>tambahPelanggan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tambahSuplier.resx">
+      <DependentUpon>tambahSuplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tambahUser.resx">
+      <DependentUpon>tambahUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi.resx">
+      <DependentUpon>Transaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AmbilPengguna.xsc">
+      <DependentUpon>AmbilPengguna.xsd</DependentUpon>
+    </None>
+    <None Include="AmbilPengguna.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AmbilPengguna.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AmbilPengguna.xss">
+      <DependentUpon>AmbilPengguna.xsd</DependentUpon>
+    </None>
+    <None Include="datasetPengguna.xsc">
+      <DependentUpon>datasetPengguna.xsd</DependentUpon>
+    </None>
+    <None Include="datasetPengguna.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datasetPengguna.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="datasetPengguna.xss">
+      <DependentUpon>datasetPengguna.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet.xsc">
+      <DependentUpon>dbkasirDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet.xss">
+      <DependentUpon>dbkasirDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet1.xsc">
+      <DependentUpon>dbkasirDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet1.xss">
+      <DependentUpon>dbkasirDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet10.xsc">
+      <DependentUpon>dbkasirDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet10.xss">
+      <DependentUpon>dbkasirDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet11.xsc">
+      <DependentUpon>dbkasirDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet11.xss">
+      <DependentUpon>dbkasirDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet12.xsc">
+      <DependentUpon>dbkasirDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet12.xss">
+      <DependentUpon>dbkasirDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet13.xsc">
+      <DependentUpon>dbkasirDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet13.xss">
+      <DependentUpon>dbkasirDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet14.xsc">
+      <DependentUpon>dbkasirDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet14.xss">
+      <DependentUpon>dbkasirDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet15.xsc">
+      <DependentUpon>dbkasirDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet15.xss">
+      <DependentUpon>dbkasirDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet16.xsc">
+      <DependentUpon>dbkasirDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet16.xss">
+      <DependentUpon>dbkasirDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet17.xsc">
+      <DependentUpon>dbkasirDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet17.xss">
+      <DependentUpon>dbkasirDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet18.xsc">
+      <DependentUpon>dbkasirDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet18.xss">
+      <DependentUpon>dbkasirDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet19.xsc">
+      <DependentUpon>dbkasirDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet19.xss">
+      <DependentUpon>dbkasirDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet2.xsc">
+      <DependentUpon>dbkasirDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet2.xss">
+      <DependentUpon>dbkasirDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet20.xsc">
+      <DependentUpon>dbkasirDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet20.xss">
+      <DependentUpon>dbkasirDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet21.xsc">
+      <DependentUpon>dbkasirDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet21.xss">
+      <DependentUpon>dbkasirDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet22.xsc">
+      <DependentUpon>dbkasirDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet22.xss">
+      <DependentUpon>dbkasirDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet23.xsc">
+      <DependentUpon>dbkasirDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet23.xss">
+      <DependentUpon>dbkasirDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet24.xsc">
+      <DependentUpon>dbkasirDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet24.xss">
+      <DependentUpon>dbkasirDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet25.xsc">
+      <DependentUpon>dbkasirDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet25.xss">
+      <DependentUpon>dbkasirDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet26.xsc">
+      <DependentUpon>dbkasirDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet26.xss">
+      <DependentUpon>dbkasirDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet27.xsc">
+      <DependentUpon>dbkasirDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet27.xss">
+      <DependentUpon>dbkasirDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet28.xsc">
+      <DependentUpon>dbkasirDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet28.xss">
+      <DependentUpon>dbkasirDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet29.xsc">
+      <DependentUpon>dbkasirDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet29.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet29.xss">
+      <DependentUpon>dbkasirDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet3.xsc">
+      <DependentUpon>dbkasirDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet3.xss">
+      <DependentUpon>dbkasirDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet30.xsc">
+      <DependentUpon>dbkasirDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet30.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet30.xss">
+      <DependentUpon>dbkasirDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet31.xsc">
+      <DependentUpon>dbkasirDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet31.xss">
+      <DependentUpon>dbkasirDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet4.xsc">
+      <DependentUpon>dbkasirDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet4.xss">
+      <DependentUpon>dbkasirDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet5.xsc">
+      <DependentUpon>dbkasirDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet5.xss">
+      <DependentUpon>dbkasirDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet6.xsc">
+      <DependentUpon>dbkasirDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet6.xss">
+      <DependentUpon>dbkasirDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet7.xsc">
+      <DependentUpon>dbkasirDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet7.xss">
+      <DependentUpon>dbkasirDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet8.xsc">
+      <DependentUpon>dbkasirDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet8.xss">
+      <DependentUpon>dbkasirDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet9.xsc">
+      <DependentUpon>dbkasirDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="dbkasirDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbkasirDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbkasirDataSet9.xss">
+      <DependentUpon>dbkasirDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="kasirDataSet.xsc">
+      <DependentUpon>kasirDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="kasirDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>kasirDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="kasirDataSet.xss">
+      <DependentUpon>kasirDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2012_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_file_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_user_group_man_man_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar_filled_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categori.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_window_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_property_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_property_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_property_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_property_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_csv_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_csv_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import_csv_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock_2_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopify_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\today_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlock_2_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_24px black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video_editing_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
